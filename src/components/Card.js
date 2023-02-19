@@ -7,7 +7,7 @@ import "./Card.css";
 const Card = (props) => {
   return (
     <div className="mx-5">
-      <div class="flex   my-10 justify-between h-[20rem] w-[17rem]">
+      <div class="flex   my-10 justify-between h-[23rem] w-[17rem]">
         <div class="max-w-sm rounded min-h-[21rem] overflow-hidden shadow-lg">
           <img class="w-full" src={props.image} alt="Sunset in the mountains" />
 
